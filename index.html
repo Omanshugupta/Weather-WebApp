@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Weather WebApp </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="search-section">
+        <h1>Find Your City’s Weather</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Get Weather</button>
+        </div>
+    </section>
+
+
+    <section class="weather-container">
+
+        <div class="liveWeather">
+            <h2>Your Location</h2>
+            <h1 id="liveCityName">Detecting...</h1>
+            <p id="liveTemperature">-- °C</p>
+            <p id="liveHumidity">Humidity: --%</p>
+            <p id="liveCondition">Condition: --</p>
+            <img id="liveWeatherIcon" src="" alt="Weather Icon">
+        </div>
+
+        <div class="searchWeather">
+            <h2>Your Searched Location</h2>
+            <h1 id="searchCityName">City Name</h1>
+            <p id="searchTemperature">-- °C</p>
+            <p id="searchHumidity">Humidity: --%</p>
+            <p id="searchCondition">Condition: --</p>
+            <img id="searchWeatherIcon" src="cloudy.png" alt="Weather Icon">
+        </div>
+
+
+        <div class="upcomingWeather">
+        <!-- <div class="forecast-weather"> -->
+            <h2>Upcoming 5 Days of Searched city</h2>
+            <!-- <ul id="forecastList"></ul> -->
+            <ul id="upcomingList"></ul>
+        </div>
+    </section>
+
+
+    <footer>
+        <p> © 2025 Weather WebApp . All rights reserved by Vayu Technology Corp.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
