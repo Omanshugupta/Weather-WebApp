@@ -36,7 +36,7 @@ Follow these steps to run the project locally:
 
 Clone the repository:
 
-git clone https://github.com/Omanshugupta/vayu_tech_assignment.git
+git clone https://github.com/Omanshugupta/Weather-WebApp.git
 
 Navigate to the project folder:
 
