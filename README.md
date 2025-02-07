@@ -4,6 +4,7 @@ Weather WebApp
 Weather WebApp is a web application that provides real-time weather updates based on the user's live location. Users can also search for weather forecasts of any city worldwide. The application fetches data from the OpenWeatherMap API and displays a 5-day weather forecast for searched locations.
 
 
+
 🚀 Features
 
 🌍 Real-time Weather Data: Automatically detects and displays weather for the user's current location.
@@ -15,6 +16,9 @@ Weather WebApp is a web application that provides real-time weather updates base
 🎨 User-Friendly UI: Responsive and visually appealing design.
 
 ⚡ Fast & Lightweight: Built with JavaScript for quick performance.
+
+
+
 
 🛠️ Technologies Used
 
@@ -51,7 +55,8 @@ Contributions are welcome! If you have any suggestions or improvements, feel fre
 
 📞 Contact
 
-Developed by: Omanshu GuptaGitHub: Omanshu Gupta
+Developed by: Omanshu Gupta
+GitHub: Omanshu Gupta
 
 ⭐ If you like this project, don't forget to star the repository! 🚀
 
