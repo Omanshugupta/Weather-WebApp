@@ -17,7 +17,7 @@ Weather WebApp is a web application that provides real-time weather updates base
 
 🎨 User-Friendly UI: Responsive and visually appealing design.
 
-⚡ Fast & Lightweight: Built with vanilla JavaScript for quick performance.
+⚡ Fast & Lightweight: Built with JavaScript for quick performance.
 
 🛠️ Technologies Used
 
