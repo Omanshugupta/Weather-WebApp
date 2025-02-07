@@ -1,4 +1,4 @@
-const apiKey = "5565ed5da3441dd72edd49b5aa70cae3";
+const apiKey = "replace_with_key";
 const searchBtn = document.getElementById("searchBtn");
 
 const toggleBtnSearch = document.createElement("button"); // Toggle button create
